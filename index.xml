@@ -6,13 +6,13 @@
         <description>Recent content on MathLife</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 04 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://flyzebraV.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>MMMM</title>
-        <link>https://flyzebraV.github.io/p/mmmm/</link>
-        <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sat, 19 Jun 2021 11:19:17 +0800</lastBuildDate><atom:link href="https://flyzebraV.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>同态 加密12 GSW</title>
+        <link>https://flyzebraV.github.io/p/%E5%90%8C%E6%80%81-%E5%8A%A0%E5%AF%8612-gsw/</link>
+        <pubDate>Sat, 19 Jun 2021 11:19:17 +0800</pubDate>
         
-        <guid>https://flyzebraV.github.io/p/mmmm/</guid>
-        <description>&lt;p&gt;GSW方案是由&lt;a class=&#34;link&#34; href=&#34;%e7%ac%ac%e4%b8%80%e4%b8%aa%e5%85%a8%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e7%9a%84%e4%ba%ba,%e5%8f%af%e4%bb%a5%e8%af%b4%e6%98%af%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e7%9a%84%e9%bc%bb%e7%a5%96.%e7%8e%b0%e5%9c%a8%e7%9a%84%e5%a4%a7%e5%a4%9a%e6%95%b0%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e9%83%bd%e6%98%af%e5%9c%a8Gentry%e6%9c%80%e5%88%9d%e7%9a%84%e6%96%b9%e6%a1%88%e7%9a%84%e5%9f%ba%e7%a1%80%e4%b8%8a%e6%94%b9%e9%80%a0%e8%80%8c%e6%9d%a5%e7%9a%84.&#34;  title=&#34;Craig Gentry&#34;
+        <guid>https://flyzebraV.github.io/p/%E5%90%8C%E6%80%81-%E5%8A%A0%E5%AF%8612-gsw/</guid>
+        <description>&lt;p&gt;12GSW方案是由&lt;a class=&#34;link&#34; href=&#34;%e7%ac%ac%e4%b8%80%e4%b8%aa%e5%85%a8%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e7%9a%84%e4%ba%ba,%e5%8f%af%e4%bb%a5%e8%af%b4%e6%98%af%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e7%9a%84%e9%bc%bb%e7%a5%96.%e7%8e%b0%e5%9c%a8%e7%9a%84%e5%a4%a7%e5%a4%9a%e6%95%b0%e5%90%8c%e6%80%81%e5%8a%a0%e5%af%86%e6%96%b9%e6%a1%88%e9%83%bd%e6%98%af%e5%9c%a8Gentry%e6%9c%80%e5%88%9d%e7%9a%84%e6%96%b9%e6%a1%88%e7%9a%84%e5%9f%ba%e7%a1%80%e4%b8%8a%e6%94%b9%e9%80%a0%e8%80%8c%e6%9d%a5%e7%9a%84.&#34;  title=&#34;Craig Gentry&#34;
     &gt;Craig Gentry&lt;/a&gt;, Amit Sahai与Brent Waters于2013年提出的方案, 发表于论文[GSW13]中.&lt;/p&gt;
 &lt;p&gt;GSW方案确实如论文标题一样, 概念清晰明了, 其Intuition简单到一个刚学完线性代数的大一新生也能理解. GSW还支持基于属性的加密, 但本文中我们将不介绍这一部分内容.&lt;/p&gt;
 &lt;p&gt;当然, 完全理解GSW方案仍然需要用到一些比较进阶的知识, 如LWE问题的困难性等. 我们在本文中不会对这些知识做过多的介绍, 这些知识将在今后其他的博文中介绍.&lt;/p&gt;
@@ -97,8 +97,8 @@ $$
 如果将$\mathsf{BitDecomp}(\mathbf a)$直接写成$\mathbf a&#39;$的形式, 我们还有
 $$
 \begin{aligned}
-\langle\mathbf a&#39;,&amp;amp;\mathsf{Powerof2}(\mathbf b)\rangle \&lt;/p&gt;
-&lt;p&gt;&amp;amp;=\langle\mathsf{BitDecomp}^{-1}(\mathbf a&#39;),\mathbf b\rangle \&lt;br&gt;
+\langle\mathbf a&#39;,&amp;amp;\mathsf{Powerof2}(\mathbf b)\rangle \&lt;br&gt;
+&amp;amp;=\langle\mathsf{BitDecomp}^{-1}(\mathbf a&#39;),\mathbf b\rangle \&lt;br&gt;
 &amp;amp;=\langle \mathsf{Flatten}(\mathbf a&#39;),\mathsf{Powerof2}(\mathbf b)\rangle
 \end{aligned}
 $$&lt;/p&gt;
@@ -146,7 +146,7 @@ $$&lt;/li&gt;
 &lt;p&gt;这就是整个加密的过程, 其中$\mathsf{Flatten}$操作是为了保证$C$是一个较小的矩阵, 我们知道$\mathbf v$是一个$\mathsf{Powerof2}$向量, 那么
 $$
 \begin{aligned}
-C\mathbf v
+C\mathbf v 
 &amp;amp;=(\mu\cdot I_N+\mathsf{BitDecomp}(R\cdot A))\mathbf v \&lt;br&gt;
 &amp;amp;= \mu\cdot I_N\cdot \mathbf v + R\cdot A\cdot \mathbf s \&amp;amp;= \mu\cdot \mathbf v+R\cdot \mathbf e
 \end{aligned}
@@ -167,12 +167,22 @@ $R\cdot \mathbf e$也是一个小噪声, 因此密文符合我们的要求.&lt;/
 </description>
         </item>
         <item>
-        <title>标题test1</title>
-        <link>https://flyzebraV.github.io/p/%E6%A0%87%E9%A2%98test1/</link>
-        <pubDate>Fri, 04 Jun 2021 00:00:00 +0000</pubDate>
+        <title>标题</title>
+        <link>https://flyzebraV.github.io/p/smart-watch/</link>
+        <pubDate>Mon, 07 Jun 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://flyzebraV.github.io/p/%E6%A0%87%E9%A2%98test1/</guid>
-        <description>&lt;h1 id=&#34;hello-math1&#34;&gt;hello math1&lt;/h1&gt;
+        <guid>https://flyzebraV.github.io/p/smart-watch/</guid>
+        <description>&lt;img src="https://flyzebraV.github.io/p/smart-watch/android.png" alt="Featured image of post 标题" /&gt;&lt;h2 id=&#34;结论&#34;&gt;结论&lt;/h2&gt;
+&lt;p&gt;Test&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://flyzebraV.github.io/p/test/</link>
+        <pubDate>Wed, 19 May 2021 11:19:17 +0800</pubDate>
+        
+        <guid>https://flyzebraV.github.io/p/test/</guid>
+        <description>&lt;h1 id=&#34;hello&#34;&gt;hello&lt;/h1&gt;
 </description>
         </item>
         
